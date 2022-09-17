@@ -59,7 +59,7 @@ if __name__ == '__main__':
     sendFreq = 10  # слать 10 пакетов в секунду
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-p', '--port', type=int, default=6000, help="Running port")
+    parser.add_argument('-p', '--port', type=int, default=5000, help="Running port")
     parser.add_argument("-i", "--ip", type=str, default='192.168.8.164', help="Ip address")
     parser.add_argument('-s', '--serial', type=str, default='/dev/ttyACM0', help="Serial port")
     args = parser.parse_args()
